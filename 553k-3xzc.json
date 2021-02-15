@@ -19,11 +19,11 @@
     ]
   },
   "row_id":"60601-20210208",
-  ":@computed_region_vrxf_vc4k":"38",
-  ":@computed_region_6mkv_f3dw":"14309",
-  ":@computed_region_bdys_3d7i":"580",
-  ":@computed_region_43wa_7qmu":"36",
-  ":@computed_region_rpca_8um6":"42"
+  ":@computed_region_vrxf_vc4k":"38", // Community Areas API
+  ":@computed_region_6mkv_f3dw":"14309", // Zip Codes API
+  ":@computed_region_bdys_3d7i":"580", // Census Tracts API
+  ":@computed_region_43wa_7qmu":"36", // Wards API
+  ":@computed_region_rpca_8um6":"42" // Boundaries - Zip Codes API
 }
 
 // Raw request for
