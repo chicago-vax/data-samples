@@ -1,3 +1,12 @@
+## Data Requests with `wget`
+
+All zips: `wget "https://data.cityofchicago.org/resource/553k-3xzc.json?\$select=:*,%20*&\$order=date%20DESC&\$limit=10000"`
+
+That includes system values (`:*`), including when the records were last updated (`:updated_at`),
+and orders all records descending by date (i.e., most recent first). As of February 23, 2021, there
+are 4000+ records in the set, so the limit of 10000 is a placeholder. Unclear how to set limit to
+always grab all records; without the `limit` parameter, 1000 records are returned.
+
 ## Snooping for Cross-Referenced Data Sets
 
 Some APIs return references to other data sets, e.g.,
